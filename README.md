@@ -1,4 +1,3 @@
-
 # 🛡️ FraudGuard: End-to-End Fraud Detection Engine
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -29,13 +28,10 @@
 graph LR
     A[Data Loading & Cleaning] --> B[Feature Engineering];
     B --> C[Time-Aware Data Split];
-    C --> D[Model Training & Tuning <br>(XGBoost & LightGBM)];
-    D --> E[Performance Evaluation <br>(AUC, PR-AUC, Confusion Matrix)];
-    E --> F[Explainability & Insights <br>(SHAP Analysis)];
+    C --> D["Model Training & Tuning <br>(XGBoost & LightGBM)"];
+    D --> E["Performance Evaluation <br>(AUC, PR-AUC, Confusion Matrix)"];
+    E --> F["Explainability & Insights <br>(SHAP Analysis)"];
     F --> G[Business Recommendations];
-````
-
-
 
 ## ⚙️ Tech Stack
 

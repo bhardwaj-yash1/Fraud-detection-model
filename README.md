@@ -1,3 +1,10 @@
+You're right, my apologies\! Some Markdown renderers are strict about the Mermaid syntax. The issue is that node text containing special formatting like `<br>` needs to be enclosed in double quotes.
+
+Here is the complete, corrected `README.md` file with the fixed diagram syntax. You can paste this directly.
+
+-----
+
+````markdown
 # 🛡️ FraudGuard: End-to-End Fraud Detection Engine
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -32,6 +39,9 @@ graph LR
     D --> E["Performance Evaluation <br>(AUC, PR-AUC, Confusion Matrix)"];
     E --> F["Explainability & Insights <br>(SHAP Analysis)"];
     F --> G[Business Recommendations];
+````
+
+-----
 
 ## ⚙️ Tech Stack
 

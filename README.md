@@ -1,4 +1,4 @@
-````markdown
+
 # 🛡️ FraudGuard: End-to-End Fraud Detection Engine
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
